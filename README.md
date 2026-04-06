@@ -10,8 +10,8 @@ Organiza o conteúdo com tags .
 Incorpora textos, imagens, vídeos, áudios e tabela e conecta páginas entre si através de links.
 Utiliza tags específicas para dar significado ao conteúdo,  onde a etiqueta de abertura é escrita entre colchetes angulares < > e a 
 etiqueta de fechamento é escrita da mesma forma, mas com uma barra / antes do nome da tag. 
-Por exemplo, <h1> é usado para títulos principais, <p> para parágrafos, <a> para links, entre outros.
-A tag <strong> é usada para indicar que o texto deve ser exibido em negrito, e e a tag <em> é usada para indicar que o texto deve ser exibido em itálico. 
+Por exemplo, `<h1>` é usado para títulos principais, <p> para parágrafos, <a> para links, entre outros.
+A tag `<strong>` é usada para indicar que o texto deve ser exibido em negrito, e e a tag <em> é usada para indicar que o texto deve ser exibido em itálico. 
 O texto a ser marcado deve ser colocado entre as tags de abertura e fechamento.
 
 Nota: Existem outras tags para aplicar formatações como negrito e itálico, como <b> e <i>, respectivamente. 
