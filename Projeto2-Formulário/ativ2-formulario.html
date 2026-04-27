@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3ede0;
+        background-image:
+            linear-gradient(45deg, rgba(114, 255, 121, 0.4) 25%, transparent 25%),
+            linear-gradient(-45deg, rgba(114, 255, 121, 0.4) 25%, transparent 25%),
+            linear-gradient(45deg, transparent 75%, rgba(82, 251, 90, 0.4) 75%),
+            linear-gradient(-45deg, transparent 75%,  rgb(82, 251, 90, 0.4) 75%);
+        background-size: 50px 50px;
+        background-position: 0 0, 0 25px, 25px -25px, -25px 0px;
+    }
+
+    aside {
+        position: fixed;
+        left: 20px;
+        top: 20px; 
+        width: 300px;
+        height: 60vh;
+        background: linear-gradient(135deg, rgba(230, 248, 248, 0.9) 0%, yellow, transparent);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    aside p {
+        background: linear-gradient(135deg, beige, yellow, transparent);
+    }
+
+    aside h1, aside h2 {
+        background: linear-gradient(135deg, rgba(230, 248, 248, 0.9) 0%, yellow, transparent );
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+
+
+    form {
+        background:linear-gradient(135deg, rgba(230, 248, 248, 0.9) 0%, yellow, transparent);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        max-width: 90%;
+    }
+
+    div {
+        margin-bottom: 15px;
+        background: linear-gradient(30deg, beige, white)
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"], select, textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    button {
+        background: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background: darkgreen;
+    }
+
+    .tela {
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <aside>
+        <h1>Formulário de Inscrição</h1>
+        <p><strong>Preencha o formulário ao lado para se inscrever no campeonato de xadrez.</strong></p>
+        <h2>Atenção!</h2>
+        <p>É necessário que todos os campos obrigatórios sejam peenchidos corretamente para a validação da sua inscrição.</p>
+        <h3><em>* Indica um campo obrigatório</em></h3>
+
+    </aside>
+    <form action="" method="get">
+        <div>
+            <label for="inp-nome">Nome  *</label>
+            <input type="text" name="nome" id="inp-nome" required>
+        </div>
+
+        <div>
+            <label for="sel-mes">Mês de nascimento  *</label>
+            <select name="mes" id="sel-mes" required>
+                <option> </option>
+                <option> Janeiro </option>
+                <option> Fevereiro </option>
+                <option> Março </option>
+                <option> Abril </option>
+                <option> Maio </option>
+                <option> Junho </option>
+                <option> Julho </option>
+                <option> Agosto </option>
+                <option> Setembro </option>
+                <option> Outubro </option>
+                <option> Novembro </option>
+                <option> Dezembro </option>
+            </select>
+            <label for="sel-ano">Ano de nascimento  *</label>
+            <select name="ano" id="sel-ano" required>
+                <option> </option>
+                <option> 2014-2016 </option>
+                <option> 2012-2013 </option>
+                <option> 2009-2011 </option>
+                <option> 1926-2008 </option>                    
+            
+            </select>
+        </div>
+        
+        <div>
+            <label for="inp-cidade">Cidade que representa  *</label>
+            <input type="text" name="cidade" id="inp-cidade" required>
+        </div>
+
+        <div>
+            <label for="sel-exp">Nível de experiência  *</label>
+            <select name="exp" id="sel-exp" required>
+                <option> </option>
+                <option> Primeira vez jogando um campeonato </option>
+                <option> Já joguei um campeonato </option>
+                <option> Já joguei vários campeonatos </option>
+            </select>
+        </div>
+
+        <div>
+            <label for="id cbx">ID CBX</label>
+            <input type="number" id="id-cbx" name="id_cbx" cols="5" rows="1">
+        </div>
+
+        <div>
+            <label for="id-fide">ID FIDE</label>
+            <input type="number" id="id-fide" name="id_fide" cols="5" rows="1">
+        </div>
+
+        </div>
+
+        <div>
+            <label for="check">Confirmo que minhas informações estão corretas e que estarei presente no campeonato.  *</label>
+            <input type="checkbox" id="check" name="confirmacao" required>
+        </div>
+
+        <div class="tela"></div>
+
+        <button>
+            Enviar
+        </button>
+
+    </form>
+</body>
+
+</html>
