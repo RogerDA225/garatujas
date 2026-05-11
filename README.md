@@ -4,31 +4,50 @@
 #Conteúdo das aulas:  github.com/drachehavocia26webdesign
 
 geralmente usar style para esitilizar
+
 p : parágrafo
+
 h1, h2, h3, h4, h5, h6, h7: Subtítulos
+
 title: título
+
 strong: negrito
+
 em: itálico
+
 Dashed: tracejado
+
 Solid: linha contiínua
+
 Border: espessura  traço  cor
+
 width: largura
+
 height: altura
+
 Adicionar imagem: `<img src = "image.png" alt="nome">`
+
 Display inline: ocupa o tamanho da linha inteira
+
 Display block: ocupa o tamanho da própria palavra
+
 Display inline-block: as duas funções
+
 main: parte principal
+
 aside: ao lado
+
 footer: rodapé, fica bem em baixo
+
 section: uma seção, um "pedaço"
+
 form: para formulários
+
 label: mais usado para o preenchimento
+
 button: geralmente é o botão final, que vai enviar as informações fornecidas pelo usuário
-Fazer no começo das aulas git pull, fazer as alterações e dar commit (git push) 
 
-
-
+Fazer no começo das aulas git pull, fazer as alterações e dar commit (git push)
 
 ## HTML para eu do futuro!
 
