@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+button {
+    font-size: 2rem;
+}
+
+.igual {
+    grid-column: -1 / 1;
+}
+
+.calc input {
+    border: 1px, black, solid;
+    grid-column: -1 / 1;
+    font-size: 2rem;
+}
