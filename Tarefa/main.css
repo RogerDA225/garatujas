@@ -1,0 +1,17 @@
+.grande {
+    border: 1px solid black;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+    
+}
+
+.pequeno {
+    border: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 0%;
+    transition: margin-left 1s ease, transform 1s ease, background-color 0.5s ease-in-out;
+}
