@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+form, ul {
+    width: 500px;
+}
+
+form {
+    margin-bottom: .5rem;
+    display: flex;
+}
+
+input {
+    flex-grow: 1;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
