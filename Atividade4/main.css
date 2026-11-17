@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 2rem;
+}
+
+main > div {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#drawer {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 260px;
+  height: 100vh;
+  padding: 4rem 1rem 1rem;
+  transition: left 0.3s ease;
+}
+
+.toggle-drawer {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  transition: left 0.3s ease;
+}
+
+#drawer.aberto {
+  left: 276px;
+}
+
